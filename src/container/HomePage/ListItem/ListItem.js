@@ -1,17 +1,17 @@
 import React from 'react';
-import WebmiWrapper from './Webmi.style';
+import ListItemWrapper from './ListItem.style';
 
 import { Eye,FileText } from 'react-feather';
-const Webmi = ({Data,link}) => {
-  
+const ListItem = ({Data,link}) => {
+   
   return (
-      <WebmiWrapper >
+      <ListItemWrapper >
           <div className='title'>
             <div>{Data?.title}</div>
             <a className='link-navigate' href={link}>Xem tất cả</a>
           </div>
           <div className='top-trending'>{Data?.data.map((item,index)=>(<div className='item'>
-              <img className='image-top-trend' alt={`name-im-${index}`} src={item.image} width={400} height={250}/>
+              <img className='image-top-trend' alt={`name-im-${index}`} src={item.image} width={300} height={400}/>
               <div className='information'>
                   <div className='view'>
                     <Eye size={15}/>
@@ -26,8 +26,8 @@ const Webmi = ({Data,link}) => {
               <div className='item-link'>{item.link}</div>
           </div>))}</div>
           
-    </WebmiWrapper>
+    </ListItemWrapper>
   );
 };
 
-export default Webmi;
+export default ListItem;

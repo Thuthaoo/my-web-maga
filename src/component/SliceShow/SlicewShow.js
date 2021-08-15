@@ -5,7 +5,7 @@ import logo1 from '../../assets/image/anh1.jpg'
 import logo5 from '../../assets/image/anh5.png'
 import logo4 from '../../assets/image/anh4.png'
 const images = [logo5,logo4,logo1];
-const delay = 50000;
+const delay = 5000;
 export default function Slideshow(){
     const [index, setIndex] =useState(0);
     const timeoutRef = useRef(null);

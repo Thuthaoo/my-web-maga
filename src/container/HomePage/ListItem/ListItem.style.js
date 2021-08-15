@@ -45,8 +45,8 @@ export default styled.div`
     border-radius: 8px;
     opacity: 0.8;
     position: absolute;
-    top: 210px;
-    width: 360px;
+    top: 360px;
+    width: 260px;
 
     .view,.total-chap{
         display: flex;
