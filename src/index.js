@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { Suspense } from 'react'
+import ReactDOM from 'react-dom'
+import { NotFoundBoundary, Router, View } from 'react-navi'
+import routes from './routes'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router routes={routes}>
+    <Suspense fallback={null}>
+      <NotFoundBoundary render={() => <h1>Quote Not Found</h1>}>
+        <View />
+      </NotFoundBoundary>
+    </Suspense>
+  </Router>,
   document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+)
