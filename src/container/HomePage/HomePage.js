@@ -32,7 +32,6 @@ const HomePage = () => {
                   {id:12,image: moicapnhat3,title:'ngôi trường cá biệt',link:"Xuyên không • Drama",total_chap:75,view:'30'},
                   {id:13,image: moicapnhat4,title:'ngôi trường cá biệt',link:"Viễn tưởng • Hài hước",total_chap:80,view:'10'},
                   {id:14,image: moicapnhat5,title:'ngôi trường cá biệt',link:"Viễn tưởng • Hài hước",total_chap:80,view:'10'},
-                  {id:15,image: moicapnhat6,title:'ngôi trường cá biệt',link:"Viễn tưởng • Hài hước",total_chap:80,view:'10'},
           ]}
 
           const Data2 ={title:'Được mong chờ nhiều nhất',
@@ -47,7 +46,6 @@ const HomePage = () => {
                   {id:12,image: moicapnhat3,title:'ngôi trường cá biệt',link:"Xuyên không • Drama",total_chap:75,view:'30'},
                   {id:13,image: moicapnhat4,title:'ngôi trường cá biệt',link:"Viễn tưởng • Hài hước",total_chap:80,view:'10'},
                   {id:14,image: moicapnhat5,title:'ngôi trường cá biệt',link:"Viễn tưởng • Hài hước",total_chap:80,view:'10'},
-                  {id:15,image: moicapnhat6,title:'ngôi trường cá biệt',link:"Viễn tưởng • Hài hước",total_chap:80,view:'10'},
           ]}
 
 

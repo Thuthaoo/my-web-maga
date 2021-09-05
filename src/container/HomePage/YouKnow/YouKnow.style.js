@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.div`
-    padding: 0px 175px;
+    padding: 0px 100px;
     margin: 50px;
  
     .title{
@@ -55,7 +55,7 @@ export default styled.div`
             align-items:center;
             font-size: 18px;
             color: #5F5F5F;
-            margin-left: 100px;
+            margin-left: 20px;
             &:first-child{
                 margin-left: 0px!important;
             }

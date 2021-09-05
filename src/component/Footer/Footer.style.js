@@ -3,18 +3,18 @@ import styled from 'styled-components';
 export default styled.div`
     position: relative;
     margin-top: 150px;
-    padding: 50px 210px 50px 210px;
+    padding: 50px 150px 50px 150px;
     background-color: #e85d79;
   background-image: linear-gradient(to right, #e85d79 , #c5567a);
  .footer-content{
      display: flex;
      align-items: center;
-     margin-bottom: 50px;
+     margin-bottom: 20px;
  }
  .footer-content-item{
      display: flex;
      align-items: center;
-     font-size: 20px;
+     font-size: 18px;
     font-weight: 600;
     color: #fff;
     margin-left: 100px;
@@ -39,7 +39,7 @@ export default styled.div`
  .footer-content-item-1{
      display: flex;
      align-items: center;
-     font-size: 20px;
+     font-size: 18px;
     font-weight: 600;
     color: #fff;
  }
@@ -47,7 +47,7 @@ export default styled.div`
 
  }
  .footer-title{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 20px;
@@ -57,7 +57,7 @@ export default styled.div`
  }
  .image-phone{
     position: absolute;
-    top: -92px;
-    right: 175px;
+    top: -94px;
+    right: 60px;
  }
 `;

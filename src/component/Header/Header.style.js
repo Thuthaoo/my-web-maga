@@ -7,6 +7,10 @@ const Wrapper = styled.div`
   z-index: 10;
   width: 100%;
   top: 0px;
+  -webkit-box-shadow: -1px 2px 3px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 2px 3px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 2px 3px -1px rgba(0, 0, 0, 0.2);
+
   .top-header .nav-custom-menu .account .nav-menu li {
     &:not(:first-child) {
       margin-left: 4px;
@@ -20,7 +24,7 @@ const Wrapper = styled.div`
     .nav-mobile {
       display: none;
     }
-    padding: 30px;
+    padding:20px 30px;
     margin: 0 10%;
 
     .group-item-header {

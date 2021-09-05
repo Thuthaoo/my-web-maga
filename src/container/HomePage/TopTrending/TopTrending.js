@@ -16,7 +16,7 @@ const TopTrending = () => {
             <div>Top thịnh hành</div>
           </div>
           <div className='top-trending'>{data.map((item,index)=>(<div className='item'>
-              <img className='image-top-trend' alt={`name-im-${index}`} src={item.image} width={300} height={400}/>
+              <img className='image-top-trend' alt={`name-im-${index}`} src={item.image} width={200} height={300}/>
               <div className='information'>
                   <div className='view'>
                     <Eye size={15}/>

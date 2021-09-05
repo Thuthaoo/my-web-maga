@@ -22,7 +22,6 @@ export default styled.ul`
   }
 
   .logout {
-    background: ${({ theme }) => theme.color['primary-color']};
     a {
       color: #fff;
       display: flex;
@@ -36,7 +35,6 @@ export default styled.ul`
       }
     }
     &:hover {
-      background: ${({ theme }) => theme.color['primary-color']};
       a {
         color: #fff;
       }
@@ -54,7 +52,6 @@ export default styled.ul`
     &:hover {
       background: #f0f0f0;
       a {
-        color: ${({ theme }) => theme.color['primary-color']};
       }
     }
   }
@@ -73,5 +70,9 @@ export default styled.ul`
     line-height: 20px;
     font-weight: 700;
     color: #ffffff;
+  }
+  a{
+    width: 150px;
+    text-align: center;
   }
 `;

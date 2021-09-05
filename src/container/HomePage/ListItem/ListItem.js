@@ -11,7 +11,7 @@ const ListItem = ({Data,link}) => {
             <a className='link-navigate' href={link}>Xem tất cả</a>
           </div>
           <div className='top-trending'>{Data?.data.map((item,index)=>(<div className='item'>
-              <img className='image-top-trend' alt={`name-im-${index}`} src={item.image} width={300} height={400}/>
+              <img className='image-top-trend' alt={`name-im-${index}`} src={item.image} width={200} height={300}/>
               <div className='information'>
                   <div className='view'>
                     <Eye size={15}/>

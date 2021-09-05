@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.div`
-    padding: 0px 175px;
+    padding: 0px 100px;
     margin: 50px;
     .top-trending{
         display: flex;
@@ -38,8 +38,8 @@ export default styled.div`
     border-radius: 8px;
     opacity: 0.8;
     position: absolute;
-    width: 260px;
-    top: 360px;
+    width: 160px;
+    top: 260px;
 
     .view,.total-chap{
         display: flex;

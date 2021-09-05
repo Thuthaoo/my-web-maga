@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.div`
-  padding-top: 90px;
+  padding-top: 65px;
   min-height: 100vh;
 
   .dashboard-layout {

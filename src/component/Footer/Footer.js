@@ -13,8 +13,8 @@ const Footer = () => {
      <div>
          <div className='footer-title'>TẢI ỨNG DỤNG</div>
          <div className='footer-content'>
-            <img alt='icon1' src={footer1} className='icon1'/>
-            <img alt='icon2' src={footer2} className='icon2'/>
+            <img alt='icon1' src={footer1} className='icon1' width={200} height={50}/>
+            <img alt='icon2' src={footer2} className='icon2' width={200} height={50}/>
          </div>
          <div className='footer-title'>LIÊN HÊ</div>
          <div className='footer-content'>
@@ -34,7 +34,7 @@ const Footer = () => {
              </div>
          </div>
      </div>
-     <img className='image-top-trend image-phone' alt={'phone12'} src={phone12} width={600} height={500}/>
+     <img className='image-top-trend image-phone' alt={'phone12'} src={phone12} width={500} height={400}/>
  </Wraper>
   );
 };
